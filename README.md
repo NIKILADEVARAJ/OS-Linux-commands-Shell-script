@@ -43,22 +43,27 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+![WhatsApp Image 2025-09-28 at 10 55 05_28884e70](https://github.com/user-attachments/assets/d94a0040-751e-4d94-9c62-560196cbafad)
+
 
 
 cat < file2
 ## OUTPUT
-
+![WhatsApp Image 2025-09-28 at 10 52 23_ea385d49](https://github.com/user-attachments/assets/34adce73-4900-44f9-a077-25e91f3d9b76)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![WhatsApp Image 2025-09-28 at 10 56 22_11d1556b](https://github.com/user-attachments/assets/3fc04ad2-f8db-47f0-8c38-9dc25e8ba2d0)
 comm file1 file2
  ## OUTPUT
-
+![WhatsApp Image 2025-09-28 at 10 57 56_248a36fb](https://github.com/user-attachments/assets/9cecea81-c952-48d5-ae1d-848aceb571ae)
  
 diff file1 file2
 ## OUTPUT
+
+![WhatsApp Image 2025-09-28 at 10 59 15_9ec5bb29](https://github.com/user-attachments/assets/15a261d6-4502-4388-b31d-cd90765f8d6e)
+
 
 
 #Filters
@@ -82,17 +87,20 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![WhatsApp Image 2025-09-28 at 11 00 33_714138b9](https://github.com/user-attachments/assets/b88cf8a3-48ca-41a5-aa5f-40ac9ee629f2)
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![WhatsApp Image 2025-09-28 at 11 01 18_26fa5ec4](https://github.com/user-attachments/assets/e4d0bbb6-3e84-43af-992d-517b25b9deaf)
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![WhatsApp Image 2025-09-28 at 11 02 06_427f7904](https://github.com/user-attachments/assets/4675f7e0-292e-4a6d-a463-2d638d1a476f)
 
 
 cat < newfile 
@@ -104,31 +112,38 @@ hello world
 cat > newfile 
 Hello world
 hello world
- 
+ ## OUTPUT 
+ ![WhatsApp Image 2025-09-28 at 11 03 29_a1fc5459](https://github.com/user-attachments/assets/4d5d0e3c-8d97-47d7-8bf0-705d5a6d09c6)
+
 grep Hello newfile 
 ## OUTPUT
 
+![WhatsApp Image 2025-09-28 at 11 05 10_1b16b51e](https://github.com/user-attachments/assets/62d7c96a-da27-4470-a68e-0ace148909ad)
 
 
 grep hello newfile 
 ## OUTPUT
 
+![WhatsApp Image 2025-09-28 at 11 05 23_649c0e80](https://github.com/user-attachments/assets/8817911c-6cdd-4c18-ac7f-29e8998fccd3)
 
 
 
 grep -v hello newfile 
 ## OUTPUT
 
+![WhatsApp Image 2025-09-28 at 11 06 23_6a071847](https://github.com/user-attachments/assets/0412eef1-0f97-448c-99b1-62cd4734fce7)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+![WhatsApp Image 2025-09-28 at 11 07 39_e287eb64](https://github.com/user-attachments/assets/9567e8ee-ab73-4662-990f-6150e14b4920)
 
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+![WhatsApp Image 2025-09-28 at 11 07 28_50658503](https://github.com/user-attachments/assets/fab08513-911d-4310-be2e-9662fd09bf27)
 
 
 
